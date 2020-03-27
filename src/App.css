@@ -1,10 +1,5 @@
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: #a79285;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -14,18 +9,90 @@
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+  text-align: center;
+  background-color: #a79285;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+
+.App-header > div {
+  margin-inline: 40%;
+  text-align: center;
+  line-height: 75px;
+  font-size: 20px;
 }
 
 .App-link {
   color: #61dafb;
+}
+
+@font-face {
+  font-family: "Canela-Regular";
+  src: local("Canela-Regular"), url(./fonts/Canela-Regular.ttf) format("ttf");
+}
+
+.projectList {
+  display: inline;
+  background-color: #a79285;
+  text-align: center;
+  width: 80% !important;
+  left: 0px;
+  margin-left: 10%;
+  margin-right: auto;
+  margin-top: 20%;
+  padding-bottom: 20px;
+  position: absolute;
+  font-family: "Canela-Regular";
+}
+
+.unstyledLink {
+  color: black;
+  /* text-decoration: none; */
+  font-family: "Canela-Regular";
+}
+
+.unstyledLinkSubtitle {
+  color: black;
+  /* text-decoration: none; */
+  font-family: "Helvetica";
+  margin-right: "10px";
+}
+
+.unstyledLink :hover {
+  color: palevioletred;
+}
+
+.projectTitle {
+  font-size: large;
+  font-family: "Canela-Regular";
+  /* font-weight: bold; */
+  font-style: normal;
+  font-size: 42px;
+  text-decoration: none;
+}
+
+.box {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 3px;
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  padding: 10px;
+  float: left;
+}
+.box2 {
+  background: #fff;
+  border: 1px solid #999;
+  border-radius: 3px;
+  width: 180px;
+  height: 180px;
+  margin: 10px;
+  padding: 10px;
+  /* float: left; */
+  position: absolute;
+  left: 500px;
+  top: 450px;
 }
 
 @keyframes App-logo-spin {
