@@ -1,23 +1,24 @@
 {
   "files": {
-    "main.css": "/mtisel.github.io/portfolio/static/css/main.00a90d94.chunk.css",
-    "main.js": "/mtisel.github.io/portfolio/static/js/main.81a523a8.chunk.js",
-    "main.js.map": "/mtisel.github.io/portfolio/static/js/main.81a523a8.chunk.js.map",
+    "main.css": "/mtisel.github.io/portfolio/static/css/main.5be44591.chunk.css",
+    "main.js": "/mtisel.github.io/portfolio/static/js/main.7f547a58.chunk.js",
+    "main.js.map": "/mtisel.github.io/portfolio/static/js/main.7f547a58.chunk.js.map",
     "runtime-main.js": "/mtisel.github.io/portfolio/static/js/runtime-main.0010008b.js",
     "runtime-main.js.map": "/mtisel.github.io/portfolio/static/js/runtime-main.0010008b.js.map",
-    "static/js/2.adb5e262.chunk.js": "/mtisel.github.io/portfolio/static/js/2.adb5e262.chunk.js",
-    "static/js/2.adb5e262.chunk.js.map": "/mtisel.github.io/portfolio/static/js/2.adb5e262.chunk.js.map",
+    "static/js/2.25fe7346.chunk.js": "/mtisel.github.io/portfolio/static/js/2.25fe7346.chunk.js",
+    "static/js/2.25fe7346.chunk.js.map": "/mtisel.github.io/portfolio/static/js/2.25fe7346.chunk.js.map",
     "index.html": "/mtisel.github.io/portfolio/index.html",
-    "precache-manifest.93885faf10b474940dd899697219d840.js": "/mtisel.github.io/portfolio/precache-manifest.93885faf10b474940dd899697219d840.js",
+    "precache-manifest.98ee01088c99151f3ece42a6f21cf1de.js": "/mtisel.github.io/portfolio/precache-manifest.98ee01088c99151f3ece42a6f21cf1de.js",
     "service-worker.js": "/mtisel.github.io/portfolio/service-worker.js",
-    "static/css/main.00a90d94.chunk.css.map": "/mtisel.github.io/portfolio/static/css/main.00a90d94.chunk.css.map",
-    "static/js/2.adb5e262.chunk.js.LICENSE.txt": "/mtisel.github.io/portfolio/static/js/2.adb5e262.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/mtisel.github.io/portfolio/static/media/Canela-Regular.4a24899e.ttf"
+    "static/css/main.5be44591.chunk.css.map": "/mtisel.github.io/portfolio/static/css/main.5be44591.chunk.css.map",
+    "static/js/2.25fe7346.chunk.js.LICENSE.txt": "/mtisel.github.io/portfolio/static/js/2.25fe7346.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/mtisel.github.io/portfolio/static/media/Canela-Regular.4a24899e.ttf",
+    "static/media/Memberships1.jpg": "/mtisel.github.io/portfolio/static/media/Memberships1.aff835bc.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.0010008b.js",
-    "static/js/2.adb5e262.chunk.js",
-    "static/css/main.00a90d94.chunk.css",
-    "static/js/main.81a523a8.chunk.js"
+    "static/js/2.25fe7346.chunk.js",
+    "static/css/main.5be44591.chunk.css",
+    "static/js/main.7f547a58.chunk.js"
   ]
 }

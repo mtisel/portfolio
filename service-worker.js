@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/mtisel.github.io/portfolio/precache-manifest.93885faf10b474940dd899697219d840.js"
+  "/mtisel.github.io/portfolio/precache-manifest.98ee01088c99151f3ece42a6f21cf1de.js"
 );
 
 self.addEventListener('message', (event) => {
