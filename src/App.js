@@ -3,6 +3,7 @@ import "./App.css";
 import ReactDOM from "react-dom";
 import Draggable from "react-draggable";
 import styled from "styled-components";
+import Memberships from "./images/Memberships1.jpg";
 // import canela from "./Canela-Regular.ttf";
 
 class App extends Component {
@@ -13,8 +14,8 @@ class App extends Component {
       projects: [
         {
           id: 0,
-          title: "project1",
-          subtitle: "sub1",
+          title: "Smoking Tiger",
+          subtitle: "Event Design /",
           url: "xxx.com",
           image: "https://picsum.photos/100",
           posX: 300,
@@ -22,8 +23,8 @@ class App extends Component {
         },
         {
           id: 1,
-          title: "project2",
-          subtitle: "sub2",
+          title: "Day Light in Helsinki",
+          subtitle: "Data Vizulization /",
           url: "yyy.com",
           image: "https://picsum.photos/150",
           posX: 650,
@@ -31,8 +32,8 @@ class App extends Component {
         },
         {
           id: 2,
-          title: "project3",
-          subtitle: "sub3",
+          title: "N26",
+          subtitle: "Rebrand /",
           url: "zzz.com",
           image: "https://picsum.photos/150",
           posX: 175,
@@ -40,8 +41,8 @@ class App extends Component {
         },
         {
           id: 3,
-          title: "project4",
-          subtitle: "sub4",
+          title: "26 reasons",
+          subtitle: "Campaign /",
           url: "xyz.com",
           image: "https://picsum.photos/250",
           posX: 20,
@@ -49,12 +50,39 @@ class App extends Component {
         },
         {
           id: 4,
-          title: "project5",
-          subtitle: "sub5",
+          title: "Memberships",
+          subtitle: "Art Direction /",
           url: "zyx.com",
           image: "https://picsum.photos/400",
-          posX: 300,
-          posY: 100
+          posX: 800,
+          posY: 200
+        },
+        {
+          id: 5,
+          title: "Remedification",
+          subtitle: "New Media Art /",
+          url: "zyx.com",
+          image: "https://picsum.photos/400",
+          posX: 600,
+          posY: 70
+        },
+        {
+          id: 6,
+          title: "Pride Berlin '19",
+          subtitle: "Campaign /",
+          url: "zyx.com",
+          image: "https://picsum.photos/400",
+          posX: 360,
+          posY: 400
+        },
+        {
+          id: 7,
+          title: "Balanced Day",
+          subtitle: "Event Design",
+          url: "zyx.com",
+          image: Memberships,
+          posX: 670,
+          posY: 140
         }
       ],
       activeDrags: 0
@@ -101,12 +129,10 @@ class App extends Component {
     return (
       <React.Fragment>
         <div className="App-header">
-          <div>
-            <p> Maja </p>
-          </div>
-          <div>
-            <p>Info</p>
-          </div>
+          
+            <span style={{marginRight: "80%"}} > Maja Tisel </span>
+            <span>Info</span>
+          
         </div>
         <div className="projectList">
           {this.state.projects.map(project => (
