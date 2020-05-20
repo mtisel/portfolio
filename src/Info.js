@@ -13,11 +13,11 @@ const Info = () => {
             to understand overarching purpose of the project and zooming-in to ensure 
             meticulous design. </p> </div>
             <div className="subInfo"> 
-            <div>CONTACT<p>mail</p><p>LinkedIn</p></div>
-            <div>CONTACT<p>mail</p><p>LinkedIn</p></div>
-            <div>CONTACT<p>mail</p><p>LinkedIn</p></div>
-            <div>CONTACT<p>mail</p><p>LinkedIn</p></div>
-            </div>
+            <div>CONTACT<p>maja.tisel@gmail.com</p><p>LinkedIn</p></div>
+            <div>CURRENTLY<p>Working at N26,</p><p>Berlin</p></div>
+            <div>EDUCATION<p>MA at Aalto University,</p><p>Helsinki</p></div>
+            <div>WORK AREAS<p>Design Strategy</p><p>Branding</p><p>Art Direction</p><p>UX Design</p></div>
+            </div>  
         
     
       </React.Fragment>

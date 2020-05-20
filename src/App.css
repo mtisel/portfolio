@@ -63,12 +63,12 @@
 .introText {
   margin-left: 5%;
   margin-top:5%;
-  margin-right: 35%;
+  margin-right: 30%;
   text-align: left;
   font-family: "Canela-Regular";
   text-decoration: none;
   color: inherit;
-  font-size: 2.6em;
+  font-size: 260%;
   line-height: 110%;
 }
 
@@ -79,32 +79,47 @@
   font-family:'Noto Sans', sans-serif ;
   text-decoration: none;
   color: inherit;
-  font-size: 1em;
+  font-size: 260%;
   display: flex;
-  flex-wrap: wrap;
+  flex-wrap: wrap ;
 }
 
 .subInfo > div {
 margin-right: 10%;
+margin-bottom: 20%;
+font-size: 40%;
+
 }
 .subInfo > div > p {
 
-font-size: 0.5em;
-line-height: 110%;
+font-size: 70%;
+line-height: 100%;
+text-align: left;
+font-family:'Noto Sans', sans-serif ;
 
 }
 
 
-/* .projectTitle:hover {
-  color: yellow;
-} */
+@media only screen and (max-width: 768px) {
+  .introText{
+    font-size: 140%;
+    margin-right: 5%;
+    line-height: 125%;
 
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
-  }
+  .subInfo > div {
+    margin-right: 20%;
+    margin-bottom: 10%;
+    font-size: 35%;
+    
+    }
+    .subInfo > div > p {
+    
+    font-size: 100%;
+    line-height: 100%;
+    text-align: left;
+    font-family:'Noto Sans', sans-serif ;
+    
+    }
+    
 }

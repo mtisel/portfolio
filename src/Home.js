@@ -25,24 +25,29 @@ import Pride3 from "./images/Pride3.png";
 class Home extends Component {
   constructor(props) {
     super(props);
+    
+    
 
     this.state = {
       projects: [
         
        
         {
-          id: 0,
+          id:0,
           title: "Day Light in Helsinki",
           subtitle: "Data Vizulization ",
           url: "yyy.com",
           image: Daylight1,
           posX: "15%",
           posY: "55%",
-          imageHeight: "45%",
+          imageHeightDesktop: "45%",
+          imageHeightMobile: "15%",
           image2: Daylight2,
           posX2: "70%",
           posY2: "40%",
-          image2Height: "45%"
+          image2HeightDesktop: "45%",
+          image2HeightMobile: "5%",
+          
         },
         {
           id: 1,
@@ -52,7 +57,8 @@ class Home extends Component {
           image: Rebrand1,
           posX: 175,
           posY: 80,
-          imageHeight: "400px"
+          imageHeightDesktop: "75%",
+          imageHeightMobile: "5%",
         },
         {
         id: 2,
@@ -173,17 +179,18 @@ class Home extends Component {
   //render starts here -----------------------
   render() {
 
+    const isMobile = window.innerWidth < 768;
+    console.log(window.innerWidth);
     const ProjectTile = styled.div`
      text-decoration: none;
       display: inline;
       text-decoration: none;
       color:black;
-      font-size: 2.6em;
+      font-size: 260%;
       width: 80% !important;
       &:hover {
         color: #B70303;
-      }
-    `;
+      }`;
 
     const ProjectImage = styled.div`
       visibility: hidden;
@@ -193,9 +200,11 @@ class Home extends Component {
       backgroundColor: rgba(0, 0, 0, 0);
       ${ProjectTile}:hover & {
         visibility: visible;
-      };
+      }`;
      
-    `;
+
+      
+   
 
     return (
       <React.Fragment>
@@ -203,22 +212,22 @@ class Home extends Component {
         <div className="projectList" >
           {this.state.projects.map(project => (
             <ProjectTile key={project.id} >
-              <a className="projectTitle" href={project.url} >
+              <a className="projectTitle" href={""} >
                 {project.title}
               </a>
               <span className="arrow"> → </span>
-              <a className="projectSubtitle" href={project.url}>{project.subtitle}</a>
+              <a className="projectSubtitle" href={""}>{project.subtitle}</a>
 
 
               <ProjectImage>
                 <img
                   src={project.image}
-                  style={{
+                style={{
                     position: "fixed",
                     left: project.posX,
                     top: project.posY,
-                    height: project.imageHeight
-                  }}
+                    height:isMobile ? project.imageHeightMobile : project.imageHeightDesktop 
+                   }}
                 ></img>
                 <img
                   src={project.image2}
