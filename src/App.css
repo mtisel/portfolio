@@ -1,6 +1,14 @@
 
+body{
+cursor: url('./images/Cursor.png'), auto;
+}
+head{
+  cursor: url('./images/Cursor.png'), auto;
+  }
+
 .App {
   background-color: #a79285;
+  cursor: url('./images/Cursor.png'), auto;
 }
 
 
@@ -20,12 +28,20 @@
   display: block;
   overflow: hidden;
   padding-inline-start: inherit;
+  cursor: url('./images/Cursor.png'), auto;
+
 }
 
 .navLink {
   font-family: 'Noto Sans', sans-serif;
   text-decoration: none;
   color: inherit;
+  cursor: url('./images/Cursor.png'), auto;
+}
+
+.arrow {
+  font-family: "Canela-Regular", "Times New Roman";
+
 }
 
 @font-face {
@@ -33,10 +49,7 @@
   src: local("Canela-Regular"), url(./fonts/Canela-Regular.ttf) format("truetype");
 }
 
-.arrow {
-    font-family:'Noto Sans', sans-serif ;
-  
-}
+
 
 .projectList {
   margin-left: 10%;
@@ -44,6 +57,8 @@
   margin-top:10%;
   margin-right: 10%;
   text-align: center;
+  font-size: 240%;
+  cursor: url('./images/Cursor.png'), auto;
 
 
 }
@@ -51,6 +66,8 @@
   font-family: "Canela-Regular";
   text-decoration: none;
   color: inherit;
+  cursor: url('./images/Cursor.png'), auto;
+
 }
 
 .projectSubtitle {
@@ -58,6 +75,8 @@
   font-family: 'Noto Sans', sans-serif;
   margin-right: "10px";
   color: inherit;
+  cursor: url('./images/Cursor.png'), auto;
+
 }
 
 .introText {
@@ -88,17 +107,31 @@
 margin-right: 10%;
 margin-bottom: 20%;
 font-size: 40%;
+text-decoration: none;
+color: black;
 
 }
 .subInfo > div > p {
 
-font-size: 70%;
+font-size: 80%;
 line-height: 100%;
 text-align: left;
 font-family:'Noto Sans', sans-serif ;
-
+text-decoration: none;
+color: black;
+/* font-family: "Canela-Regular"; */
 }
 
+.subInfo > div > a {
+
+  font-size: 80%;
+  line-height: 100%;
+  text-align: left;
+  font-family:'Noto Sans', sans-serif ;
+  text-decoration: none;
+  color: black;
+  /* font-family: "Canela-Regular"; */
+  }
 
 @media only screen and (max-width: 768px) {
   .introText{
@@ -119,7 +152,19 @@ font-family:'Noto Sans', sans-serif ;
     line-height: 100%;
     text-align: left;
     font-family:'Noto Sans', sans-serif ;
+    text-decoration: none;
+    color: black;
     
     }
+    subInfo > div > a {
+
+      font-size: 100%;
+      line-height: 100%;
+      text-align: left;
+      font-family:'Noto Sans', sans-serif ;
+      text-decoration: none;
+      color: black;
+      /* font-family: "Canela-Regular"; */
+      }
     
 }

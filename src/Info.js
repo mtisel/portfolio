@@ -13,9 +13,9 @@ const Info = () => {
             to understand overarching purpose of the project and zooming-in to ensure 
             meticulous design. </p> </div>
             <div className="subInfo"> 
-            <div>CONTACT<p>maja.tisel@gmail.com</p><p>LinkedIn</p></div>
-            <div>CURRENTLY<p>Working at N26,</p><p>Berlin</p></div>
-            <div>EDUCATION<p>MA at Aalto University,</p><p>Helsinki</p></div>
+            <div>CONTACT<p>maja.tisel@gmail.com</p><a href = "https://www.linkedin.com/in/maja-tisel-71147b1a3/">LinkedIn</a><p></p><a href="https://vimeo.com/majatisel">Vimeo</a></div>
+            <div>CURRENTLY<p>Working at N26,<br></br>Berlin</p></div>
+            <div>EDUCATION<p>MA at Aalto University,<br></br>Helsinki</p></div>
             <div>WORK AREAS<p>Design Strategy</p><p>Branding</p><p>Art Direction</p><p>UX Design</p></div>
             </div>  
         

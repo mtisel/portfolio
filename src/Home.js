@@ -22,6 +22,7 @@ import Pride2 from "./images/Pride2.png";
 import Pride3 from "./images/Pride3.png";
 
 
+
 class Home extends Component {
   constructor(props) {
     super(props);
@@ -38,15 +39,19 @@ class Home extends Component {
           subtitle: "Data Vizulization ",
           url: "yyy.com",
           image: Daylight1,
-          posX: "15%",
-          posY: "55%",
+          posXDesktop: "15%",
+          posYDesktop: "50%",
+          posXMobile: "20%",
+          posYMobile: "70%",
           imageHeightDesktop: "45%",
-          imageHeightMobile: "15%",
+          imageHeightMobile: "30%",
           image2: Daylight2,
-          posX2: "70%",
-          posY2: "40%",
-          image2HeightDesktop: "45%",
-          image2HeightMobile: "5%",
+          image2HeightDesktop: "35%",
+          image2HeightMobile: "25%",
+          posXDesktop2: "70%",
+          posYDesktop2: "40%",
+          posX2Mobile: "10%",
+          posY2Mobile: "10%",
           
         },
         {
@@ -55,10 +60,12 @@ class Home extends Component {
           subtitle: "Rebrand ",
           url: "zzz.com",
           image: Rebrand1,
-          posX: 175,
-          posY: 80,
-          imageHeightDesktop: "75%",
-          imageHeightMobile: "5%",
+          posXDesktop: "5%",
+          posYDesktop: "20%",
+          posXMobile: "10%",
+          posYMobile: "10%",
+          imageHeightDesktop: "50%",
+          imageHeightMobile: "25%",
         },
         {
         id: 2,
@@ -66,9 +73,12 @@ class Home extends Component {
         subtitle: "Event Design ",
         url: "xxx.com",
         image: Tiger1,
-        posX: "60%",
-        posY: "20%",
-        imageHeight: "70%"
+        posXDesktop: "60%",
+        posYDesktop: "20%",
+        imageHeightDesktop: "70%",
+        posXMobile: "10%",
+        posYMobile: "10%",
+        imageHeightMobile: "40%",
         // image2: Tiger1,
         // posX2: 1000,
         // posY2: 400,
@@ -80,17 +90,26 @@ class Home extends Component {
           subtitle: "Campaign ",
           url: "xyz.com",
           image: Reason1,
-          posX: "20%",
-          posY: "50%",
-          imageHeight: "35%",
+          posXDesktop: "25%",
+          posYDesktop: "55%",
+          posXMobile: "10%",
+          posYMobile: "10%",
+          imageHeightDesktop: "40%",
+          imageHeightMobile: "20%",
           image2: Reason2,
-          posX2: "60%",
-          posY2: "50%",
-          image2Height:"45%",
+          posXDesktop2: "60%",
+          posYDesktop2: "8%",
+          posXMobile2: "10%",
+          posYMobile2: "70%",
+          image2HeightDesktop: "35%",
+          image2HeightMobile: "20%",
           image3: Reason3,
-          posX3: "5%",
-          posY3: "5%",
-          image3Height: "35%"
+          posXDesktop3: "5%",
+          posYDesktop3: "5%",
+          posXMobile3: "30%",
+          posYMobile3: "40%",
+          image3HeightDesktop: "35%",
+          image3HeightMobile: "20%",
         },
         {
           id: 4,
@@ -98,36 +117,54 @@ class Home extends Component {
           subtitle: "Art Direction ",
           url: "zyx.com",
           image: Memberships1,
-          posX: "50%",
-          posY: "20%",
-          imageHeight: "30%",
+          posXDesktop: "50%",
+          posYDesktop: "20%",
+          posXMobile: "10%",
+          posYMobile: "10%",
+          imageHeightDesktop: "30%",
+          imageHeightMobile: "15%",
           image2: Memberships2,
-          posX2: "70%",
-          posY2: "45%",
-          image2Height: "50%",
+          posXDesktop2: "70%",
+          posYDesktop2: "45%",
+          posXMobile2: "20%",
+          posYMobile2: "30%",
+          image2HeightDesktop: "50%",
+          image2HeightMobile: "25%",
           image3: Memberships3,
-          posX3: "20%",
-          posY3: "70%",
-          image3Height: "25%"
+          posXDesktop3: "10%",
+          posYDesktop3: "65%",
+          posXMobile3: "70%",
+          posYMobile3: "80%",
+          image3HeightDesktop: "30%",
+          image3HeightMobile: "10%",
         },
         {
           id: 6,
           title: "/ Pride Berlin '19",
-          subtitle: "Campaign",
+          subtitle: "Campaign ",
           url: "zyx.com",
           image: "https://picsum.photos/400",
           image: Pride1,
-          posX: "10%",
-          posY: "40%",
-          imageHeight: "35%",
+          posXDesktop: "10%",
+          posYDesktop: "40%",
+          posXMobile: "10%",
+          posYMobile: "10%",
+          imageHeightDesktop: "35%",
+          imageHeightMobile: "15%",
           image2: Pride2,
-          posX2: "70%",
-          posY2: "60%",
-          image2Height: "35%",
+          posXDesktop2: "70%",
+          posYDesktop2: "66%",
+          posXMobile2: "10%",
+          posYMobile2: "30%",
+          image2HeightDesktop: "30%",
+          image2HeightMobile: "25%",
           image3: Pride3,
-          posX3: "50%",
-          posY3: "4%",
-          image3Height: "35%"
+          posXDesktop3: "50%",
+          posYDesktop3: "4%",
+          posXMobile3: "50%",
+          posYMobile3: "70%",
+          image3HeightDesktop: "35%",
+          image3HeightMobile: "10%",
 
         },
         {
@@ -135,37 +172,55 @@ class Home extends Component {
           title: "Balanced Day",
           subtitle: "Event Design ",
           url: "zyx.com",
-          image: Balanced1,
-          posX: "10%",
-          posY: "5%",
-          imageHeight: "40%",
+          image: Balanced3,
+          posXDesktop: "10%",
+          posYDesktop: "5%",
+          posXMobile: "60%",
+          posYMobile: "70%",
+          imageHeightDesktop: "45%",
+          imageHeightMobile: "30%",
           image2: Balanced2,
-          posX2: "70%",
-          posY2: "15%",
-          image2Height: "30%",
-          image3: Balanced3,
-          posX3: "55%",
-          posY3: "40%",
-          image3Height: "55%"
+          posXDesktop2: "70%",
+          posYDesktop2: "15%",
+          posXMobile2: "30%",
+          posYMobile2: "10%",
+          image2HeightDesktop: "30%",
+          image2HeightMobile: "15%",
+          image3: Balanced1,
+          posXDesktop3: "55%",
+          posYDesktop3: "60%",
+          posXMobile3: "10%",
+          posYMobile3: "30%",
+          image3HeightDesktop: "35%",
+          image3HeightMobile: "20%",
         
         },
         {
           id: 5,
-          title: "/ Remedification",
+          title: "/ Remediation",
           subtitle: "New Media Art",
           url: "zyx.com",
           image: Mag1,
-          posX: "5%",
-          posY: "45%",
-          imageHeight: "50%",
+          posXDesktop: "5%",
+          posYDesktop: "45%",
+          posXMobile: "60%",
+          posYMobile: "10%",
+          imageHeightDesktop: "40%",
+          imageHeightMobile: "15%",
           image2: Mag2,
-          posX2: "60%",
-          posY2: "10%",
-          image2Height: "35%",
+          posXDesktop2: "60%",
+          posYDesktop2: "10%",
+          posXMobile2: "10%",
+          posYMobile2: "35%",
+          image2HeightDesktop: "35%",
+          image2HeightMobile: "25%",
           image3: Mag3,
-          posX3: "70%",
-          posY3: "65%",
-          image3Height: "30%"
+          posXDesktop3: "70%",
+          posYDesktop3: "65%",
+          posXMobile3: "10%",
+          posYMobile3: "70%",
+          image3HeightDesktop: "30%",
+          image3HeightMobile: "15%",
           
         }
         
@@ -184,10 +239,9 @@ class Home extends Component {
     const ProjectTile = styled.div`
      text-decoration: none;
       display: inline;
-      text-decoration: none;
+      
       color:black;
-      font-size: 260%;
-      width: 80% !important;
+      
       &:hover {
         color: #B70303;
       }`;
@@ -224,8 +278,8 @@ class Home extends Component {
                   src={project.image}
                 style={{
                     position: "fixed",
-                    left: project.posX,
-                    top: project.posY,
+                    left:isMobile ? project.posXMobile : project.posXDesktop,
+                    top: isMobile ? project.posYMobile : project.posYDesktop,
                     height:isMobile ? project.imageHeightMobile : project.imageHeightDesktop 
                    }}
                 ></img>
@@ -233,18 +287,18 @@ class Home extends Component {
                   src={project.image2}
                   style={{
                     position: "fixed",
-                    left: project.posX2,
-                    top: project.posY2,
-                    height: project.image2Height
+                    left:isMobile ? project.posXMobile2 : project.posXDesktop2,
+                    top: isMobile ? project.posYMobile2 : project.posYDesktop2,
+                    height:isMobile ? project.image2HeightMobile : project.image2HeightDesktop
                   }}
                 ></img>
                 <img
                   src={project.image3}
                   style={{
                     position: "fixed",
-                    left: project.posX3,
-                    top: project.posY3,
-                    height: project.image3Height
+                    left:isMobile ? project.posXMobile3 : project.posXDesktop3,
+                    top: isMobile ? project.posYMobile3 : project.posYDesktop3,
+                    height:isMobile ? project.image3HeightMobile : project.image3HeightDesktop
                   }}
                 ></img>
               </ProjectImage>
